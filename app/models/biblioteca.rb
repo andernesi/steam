@@ -4,7 +4,7 @@ class Biblioteca < ApplicationRecord
 
 
   delegate :titulo, to: :jogo, prefix: false         
-
+   
   
 
 end
